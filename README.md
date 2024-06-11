@@ -12,25 +12,35 @@ Projenin çalışması için kurulması gereken programlar
 
 • MetaMask Eklentisi
 
-(https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkod
-befgpgknn)
+(https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkodbefgpgknn)
 
 Kurulması gereken paketler
+
 • Web3.js: npm i web3
+
 • Solidity : npm i solc
+
 Adım 1:
+
 MetaMask ve Ganache bağlantısını sağlayın. Proje kullanım süreci boyunca Ganache
 programını kapatmayın. (İlgili konuya erişmek için tıklayınız.)
+
 Adım 2:
+
 Truffle-config.js dosyasını ganache ile kontrol edin. Ganache-cli (cli kullananlar 8545
 portunu almalı) kullanmadığımız için port numarası 7545 olarak ayarlanmalıdır.
+
 Adım 3:
+
 İşlemleri proje terminalinde yaptığınızdan emin olun. Bunun için cd Oy_Kullanma
 komutunu terminalde çalıştırınız. Zaten bu konumda iseniz hata çıkabilir bu durumu
 umursamayın.
+
 Adım 4:
+
 npm install (ya da npm i) komutunu vs code terminalinde çalıştırarak projenin çalışması için
 gerekli olan node.js paketleri yükleyin.
+
 Adım 5:
 Projeyi ilk defa çalıştırıyorsanız truffle compile komutunu terminalde çalıştırın. Daha önce
 projeyi çalıştırıp kullandıysanız truffle migrate --reset komutunu kullanın. Böylece
