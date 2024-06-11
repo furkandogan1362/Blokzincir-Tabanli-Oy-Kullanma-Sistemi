@@ -3,9 +3,13 @@ KURULUM İŞLEMLERİ
 Projenin çalışması için kurulması gereken programlar
 
 • Visual Studio Code (https://code.visualstudio.com/download)
+
 • Node.js / npm (https://nodejs.org/en/download)
+
 • Truffle (https://trufflesuite.com/docs/truffle/how-to/install/)
+
 • Ganache (https://trufflesuite.com/ganache/)
+
 • MetaMask Eklentisi
 
 (https://chromewebstore.google.com/detail/metamask/nkbihfbeogaeaoehlefnkod
