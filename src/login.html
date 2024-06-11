@@ -1,0 +1,107 @@
+<!-- DOCTYPE belirtimi -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Karakter kodlama ayarı -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- Sayfa başlığı -->
+    <title>OY KULLAN</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link href="images/favicon.png" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link href="others/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- Animate.css -->
+    <link href="others/animate/animate.min.css" rel="stylesheet">
+    <!-- Venobox -->
+    <link href="others/venobox/venobox.css" rel="stylesheet">
+    <!-- Owl Carousel -->
+    <link href="others/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Ana CSS dosyası -->
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Header bölümü -->
+<header id="header">
+    <div class="container">
+
+        <div id="logo" class="pull-left">
+            <h1><a ><span>OY </span>KULLAN</a></h1>
+        </div>
+
+        <!-- Navigasyon menüsü -->
+        <nav id="nav-menu-container">
+            <ul class="nav-menu">
+                <li class="menu-active" class="reg"><a href="index.html" >Üye Ol / Giriş Yap</a></li>
+                <li class="vot" ><a href="vote.html" >Oy</a></li>
+                <li><a href="results.html" >Sonuçlar</a></li>
+                <li class="buy-tickets"><a href="admin.html">Admin Panel</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- Giriş bölümü -->
+<section id="intro">
+    <div class="intro-container wow fadeIn">
+        <h1 style="text-transform: initial" class= >Mevcut Bir Hesaba<span> Giriş Yap</span></h1>
+        <div id="loader">
+            <svg class="loader" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 340">
+                <circle cx="170" cy="170" r="160" stroke="#E2007C"/>
+                <circle cx="170" cy="170" r="135" stroke="#404041"/>
+                <circle cx="170" cy="170" r="110" stroke="#E2007C"/>
+                <circle cx="170" cy="170" r="85" stroke="#404041"/>
+            </svg>
+        </div>
+        <div id="content" style="display: none; background-color: white; color: black;">
+            <!-- Giriş formu -->
+            <form onSubmit="App.login(); return false;">
+                <div class="form-group col-lg-12" style="padding-top: 15px">
+                    <label for="lidNumber" >Kimlik No</label>
+                    <input type="text" class="form-control" id="lidNumber" placeholder="Aadhar Number" >
+                </div>
+                <div class="form-group col-lg-12">
+                    <label for="lpassword">Şifre</label>
+                    <input type="password" class="form-control" id="lpassword" placeholder="Password" >
+                </div>
+                <button type="submit" class="btn " style="background-color: #f82249; color: white" a href="login.html"> <a style="color: white"> Giriş Yap</a></button>
+            </form>
+            <!-- Kullanıcı hesap adresi -->
+            <a  class="about-btn scrollto" id="accountAddress" class="text-center" style="background-color: #f82249; color: white"></a>
+        </div>
+    </div>
+</section>
+
+<!-- JavaScript dosyaları -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/web3.min.js"></script>
+<script src="js/truffle-contract.js"></script>
+<script src="js/app.js"></script>
+
+<script src="others/jquery/jquery.min.js"></script>
+<script src="others/jquery/jquery-migrate.min.js"></script>
+<script src="others/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="others/easing/easing.min.js"></script>
+<script src="others/superfish/hoverIntent.js"></script>
+<script src="others/superfish/superfish.min.js"></script>
+<script src="others/wow/wow.min.js"></script>
+<script src="others/venobox/venobox.min.js"></script>
+<script src="others/owlcarousel/owl.carousel.min.js"></script>
+
+<script src="js/main.js"></script>
+</body>
+</html>
