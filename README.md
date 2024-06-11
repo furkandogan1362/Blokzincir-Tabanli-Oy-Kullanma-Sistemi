@@ -23,7 +23,7 @@ Kurulması gereken paketler
 Adım 1:
 
 "MetaMask" ve "Ganache" bağlantısını sağlayın. Proje kullanım süreci boyunca Ganache
-programını kapatmayın. (İlgili konuya erişmek için tıklayınız.)
+programını kapatmayın. (İlgili konuya erişmek için proje raporunu okuyunuz.)
 
 Adım 2:
 
